@@ -1,0 +1,16 @@
+	//Inserer une image pour en faire une icone
+ 
+    JPanel panel = new JPanel();
+    JFrame frame = new JFrame();
+    frame.setSize(400, 300);
+ 
+    ImageIcon icon = new ImageIcon("C:/image.jpg");
+ 
+    frame.setIconImage(icon.getImage());
+    frame.setContentPane(panel);
+    frame.setVisible(true);
+    panel.setVisible(true);
+
+
+
+// Inserer une image que l'on choisira comme unrond carré triangle
